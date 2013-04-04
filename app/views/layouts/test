@@ -1,0 +1,7 @@
+class User < ActiveRecord::Base
+	attr_accessible :email, :name
+end
+
+#Variables called by the @ sign are called
+#Instance variables and they are automatically
+#Available to the view
